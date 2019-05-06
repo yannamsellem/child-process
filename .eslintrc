@@ -1,0 +1,18 @@
+{
+  "env": {
+    "jest": true,
+    "node": true
+  },
+  "extends": "airbnb-base",
+  "settings": {
+    "import/resolver": "node"
+  },
+  "rules": {
+    "semi": [1, "never"],
+    "max-len": ["error", { "code": 80 }],
+    "implicit-arrow-linebreak": 0,
+    "no-console": 0,
+    "camelcase": 0,
+    "arrow-parens": ["error", "as-needed"]
+  }
+}
